@@ -1,0 +1,84 @@
+{
+  "_README": "Merge the 'profiles.list' entries into your Windows Terminal settings.json (down-arrow next to tabs -> Settings -> Open JSON file). Also merge the 'actions' entry to bind Alt+Y to pane zoom. The 8 backgrounds are dark, distinct, and keep text readable. suppressApplicationTitle keeps the --title from zed.ps1 pinned even after Claude Code starts.",
+
+  "profiles": {
+    "list": [
+      {
+        "name": "zed-1",
+        "commandline": "powershell.exe",
+        "background": "#1A2A3F",
+        "suppressApplicationTitle": true,
+        "bellStyle": ["visual", "window", "taskbar"],
+        "unfocusedAppearance": { "foreground": "#808080" },
+        "hidden": false
+      },
+      {
+        "name": "zed-2",
+        "commandline": "powershell.exe",
+        "background": "#1F3A1F",
+        "suppressApplicationTitle": true,
+        "bellStyle": ["visual", "window", "taskbar"],
+        "unfocusedAppearance": { "foreground": "#808080" },
+        "hidden": false
+      },
+      {
+        "name": "zed-3",
+        "commandline": "powershell.exe",
+        "background": "#2D1F3F",
+        "suppressApplicationTitle": true,
+        "bellStyle": ["visual", "window", "taskbar"],
+        "unfocusedAppearance": { "foreground": "#808080" },
+        "hidden": false
+      },
+      {
+        "name": "zed-4",
+        "commandline": "powershell.exe",
+        "background": "#1F3A3F",
+        "suppressApplicationTitle": true,
+        "bellStyle": ["visual", "window", "taskbar"],
+        "unfocusedAppearance": { "foreground": "#808080" },
+        "hidden": false
+      },
+      {
+        "name": "zed-5",
+        "commandline": "powershell.exe",
+        "background": "#3F1F1F",
+        "suppressApplicationTitle": true,
+        "bellStyle": ["visual", "window", "taskbar"],
+        "unfocusedAppearance": { "foreground": "#808080" },
+        "hidden": false
+      },
+      {
+        "name": "zed-6",
+        "commandline": "powershell.exe",
+        "background": "#3F2A1F",
+        "suppressApplicationTitle": true,
+        "bellStyle": ["visual", "window", "taskbar"],
+        "unfocusedAppearance": { "foreground": "#808080" },
+        "hidden": false
+      },
+      {
+        "name": "zed-7",
+        "commandline": "powershell.exe",
+        "background": "#3F3F1F",
+        "suppressApplicationTitle": true,
+        "bellStyle": ["visual", "window", "taskbar"],
+        "unfocusedAppearance": { "foreground": "#808080" },
+        "hidden": false
+      },
+      {
+        "name": "zed-8",
+        "commandline": "powershell.exe",
+        "background": "#2A2A3F",
+        "suppressApplicationTitle": true,
+        "bellStyle": ["visual", "window", "taskbar"],
+        "unfocusedAppearance": { "foreground": "#808080" },
+        "hidden": false
+      }
+    ]
+  },
+
+  "actions": [
+    { "command": "togglePaneZoom", "keys": "alt+y" }
+  ]
+}
